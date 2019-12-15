@@ -23,6 +23,10 @@ const Container = styled.div`
 `;
 
 const Nav = styled.nav`
+	@media (max-width: 425px){
+		padding: 20px;
+	}
+
 	position: relative;
 	display: flex;
 	flex-flow: row nowrap;
@@ -35,6 +39,10 @@ const Nav = styled.nav`
 `;
 
 const HTitle = styled.h1`
+	@media (max-width: 425px){
+		font-size: 20px;
+	}
+
 	color: ${css.grey};
 	margin: 0;
 	font-weight: 300;
@@ -53,6 +61,10 @@ const HTitleB = styled.span`
 `;
 
 const MLink = styled.a`
+	@media (max-width: 425px){
+		font-size: 20px;
+	}
+
 	color: ${css.grey};
 	text-decoration: none;
 	font-size: 24px;
@@ -65,6 +77,10 @@ const MLink = styled.a`
 `;
 
 const Input = styled.input`
+	@media (max-width: 425px){
+		font-size: 25px;
+	}
+
 	border: none;
     border-bottom: 1px solid #bfbfbf;
     padding: 10px 0;
